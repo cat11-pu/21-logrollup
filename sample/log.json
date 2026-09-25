@@ -1,0 +1,15 @@
+{
+  "manifest_code": "E_MANIFEST_BAD",
+  "size_limit": 50,
+  "millis_limit": 10,
+  "policy": {"max_count": 2, "max_bytes": 100},
+  "records": [
+    {"bytes": 20, "millis": 0},
+    {"bytes": 20, "millis": 4},
+    {"bytes": 20, "millis": 9},
+    {"bytes": 20, "millis": 12},
+    {"bytes": 20, "millis": 13}
+  ],
+  "manifest": {"segments": ["s0", "s1"], "current": "s1"},
+  "on_disk": ["s0", "s1", "s2"]
+}
